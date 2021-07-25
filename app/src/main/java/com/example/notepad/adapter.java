@@ -44,8 +44,8 @@ public  class adapter extends RecyclerView.Adapter<adapter.viewHolder> {
     }
 
     public static class viewHolder extends RecyclerView.ViewHolder {
-        static EditText tv1;
-        static EditText tv2;
+        static TextView tv1;
+        static TextView tv2;
         public viewHolder(@NonNull View itemView) {
             super(itemView);
             tv1 = itemView.findViewById(R.id.tv1);
