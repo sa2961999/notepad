@@ -4,6 +4,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -44,8 +45,8 @@ public  class adapter extends RecyclerView.Adapter<adapter.viewHolder> {
     }
 
     public static class viewHolder extends RecyclerView.ViewHolder {
-        static EditText tv1;
-        static EditText tv2;
+        static TextView tv1;
+        static TextView tv2;
         public viewHolder(@NonNull View itemView) {
             super(itemView);
             tv1 = itemView.findViewById(R.id.tv1);
